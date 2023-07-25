@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, h2, h3, h4, h5, h6, p, span, li, ul, button, a{
+  @apply !font-quicksand;
+}
+
+.container {
+  @apply w-full px-5
+}
+@media (min-width: 480px) {
+  .container {
+    @apply max-w-screen-xs
+  }
+}
+@media (min-width: 640px) {
+  .container {
+    @apply max-w-[560px]
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    @apply max-w-[640px]
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    @apply max-w-[920px]
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    @apply max-w-[1100px]
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    @apply max-w-[1200px]
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    @apply max-w-[1100px]
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    @apply max-w-[1400px]
+  }
+}
+@media (min-width: 1920px) {
+  .container {
+    @apply max-w-[1500px]
+  }
+}
+
+/* Headings */
+.subheading{
+  @apply text-[2rem] sm:text-5xl md:text-6xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl font-quicksand font-bold leading-10 lg:leading-normal pb-2;
+}
+.heading-primary{
+  @apply  text-transparent bg-gradient-to-r from-secondary via-tertiary to-primary-300 bg-clip-text;
+}
+
+/* Links and Paragraphs */
+.menu-link{ 
+  @apply  inline-block py-2 2xl:text-lg font-medium
+}
+.para{
+  @apply text-sm leading-5  lg:text-lg font-quicksand !text-[#383838] font-semibold
+}
+
+/* Buttons */
+.btn-primary {
+  @apply px-6 lg:px-6 py-2 lg:py-3.5 text-xs md:text-sm lg:text-base w-fit rounded-xl text-white bg-primary-100 hover:bg-primary-300 transition-all text-center lg:w-full;
+}
+.btn-one {
+  @apply px-4 py-2 lg:py-3.5 lg:px-8 text-xs md:text-sm lg:text-base text-white transition-all text-center w-fit rounded-full bg-primary-400 hover:bg-primary-300 font-semibold;
+}
+.btn-transparent {
+  @apply px-12 lg:px-6 py-2 lg:py-3.5 text-xs md:text-sm lg:text-base rounded-xl hover:bg-primary-300 transition-all border-2 border-slate-200 hover:text-white w-fit text-center lg:w-full;
+}
+
+/* Form Styles */
+.form-input {
+  @apply w-full block outline-none border-2 border-slate-200  py-1.5 px-4 md:py-2.5 lg:py-3.5 rounded-lg mb-3 text-sm md:text-base;
+}
+
+/* Custom styling */
+.issue-card{
+  @apply mx-auto block w-20 h-20 lg:h-52 lg:w-52 2xl:h-60 2xl:w-60 object-cover
+}
