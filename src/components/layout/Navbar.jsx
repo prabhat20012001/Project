@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import Logo from "../../assets/images/logo-transparent.png";
 import { logo } from "../../assets";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   return (
@@ -24,7 +25,7 @@ function Navbar() {
           </li>
           <li className="group relative inline-block">
             <Link to="/services" className="menu-link">
-              Services <i className="fa-solid fa-angle-down" />
+              Services <FontAwesomeIcon icon={faAngleDown} />
             </Link>
 
             {/* Submenu */}
@@ -34,7 +35,7 @@ function Navbar() {
                   to="/services/therapy"
                   className="menu-link inline-block py-2"
                 >
-                  Therapy{" "}
+                  Therapy
                 </Link>
               </li>
               <li>
@@ -42,7 +43,7 @@ function Navbar() {
                   to="/services/psychiatry"
                   className="menu-link inline-block py-2"
                 >
-                  Psychiatry{" "}
+                  Psychiatry
                 </Link>
               </li>
               <li>
@@ -50,7 +51,7 @@ function Navbar() {
                   to="/services/couples-therapy"
                   className="menu-link inline-block py-2"
                 >
-                  Couples Therapy{" "}
+                  Couples Therapy
                 </Link>
               </li>
               <li>
@@ -78,7 +79,7 @@ function Navbar() {
           </li>
           <li className="group relative inline-block">
             <Link to="/issues" className="menu-link">
-              Issues <i className="fa-solid fa-angle-down" />
+              Issues <FontAwesomeIcon icon={faAngleDown} />
             </Link>
             {/* Submenu */}
             <ul className="absolute hidden z-20 w-60 rounded-xl border-[1px] border-slate-100 bg-white px-6 py-4 shadow-md group-hover:block">
@@ -116,25 +117,22 @@ function Navbar() {
           </li>
           <li className="group relative inline-block">
             <Link to="/activities" className="menu-link">
-              Activities <i className="fa-solid fa-angle-down" />
+              Activities <FontAwesomeIcon icon={faAngleDown} />
             </Link>
             {/* Submenu */}
             <ul className="absolute hidden w-60 z-20 rounded-xl border-[1px] border-slate-100 bg-white px-6 py-4 shadow-md group-hover:block">
               <li>
                 <Link to="/yoga" className="menu-link inline-block py-2">
-                  {" "}
                   Yoga
                 </Link>
               </li>
               <li>
                 <Link to="/meditation" className="menu-link inline-block py-2">
-                  {" "}
                   Meditation
                 </Link>
               </li>
               <li>
                 <Link to="/goal-plan" className="menu-link inline-block py-2">
-                  {" "}
                   Goal Plan
                 </Link>
               </li>
@@ -149,7 +147,6 @@ function Navbar() {
                   to="/brain-exercise"
                   className="menu-link inline-block py-2"
                 >
-                  {" "}
                   Brain Exercise
                 </Link>
               </li>

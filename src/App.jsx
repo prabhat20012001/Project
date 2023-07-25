@@ -15,6 +15,7 @@ import Issues from "./pages/Issues";
 import Internship from "./pages/Internship";
 import Activities from "./pages/Activities";
 import Blogs from "./pages/Blogs";
+import Meditation from "./pages/Meditation";
 
 function App() {
   return (
@@ -73,6 +74,14 @@ function App() {
           element={
             <Layout>
               <Activities />
+            </Layout>
+          }
+        />
+        <Route
+          path="/meditation"
+          element={
+            <Layout>
+              <Meditation />
             </Layout>
           }
         />
