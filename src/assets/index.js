@@ -11,6 +11,7 @@ import meditation from "./images/activities/activities-meditation.png";
 import sadhna from "./images/activities/activities-sadhna.png";
 import yoga from "./images/activities/activities-yoga.png";
 import activitiesHeader from "./images/activities/header-banner.png";
+import activityBlogThumbnail from "./images/activities/activity-blog-thumbnail.png";
 import activitiesExplore1 from "./images/activities/activities-explore-1.png";
 import activitiesExplore2 from "./images/activities/activities-explore-2.png";
 // Activities >> Meditation
@@ -25,6 +26,33 @@ import meditationType4 from "./images/activities/meditation/meditation-type-4.pn
 import meditationType5 from "./images/activities/meditation/meditation-type-5.png";
 import meditationType6 from "./images/activities/meditation/meditation-type-6.png";
 import meditationThumbnail from "./images/activities/meditation/meditationThumbnail.png";
+// Activities >> Yoga
+import yogaHeader from "./images/activities/yoga/yoga-header.png";
+import yogaAdhoMukhaSavanasana from "./images/activities/yoga/adho-mukha-savanasana.png";
+import yogaMatsyasana from "./images/activities/yoga/yoga-matsyasana.png";
+import yogaSarvangasana from "./images/activities/yoga/yoga-sarvangasana.png";
+import yogaBandhasana from "./images/activities/yoga/yoga-setu-bandhasana.png";
+import yogaSirsasana from "./images/activities/yoga/yoga-sirsasana.png";
+import yogaTrikonasana from "./images/activities/yoga/yoga-trikonasana.png";
+import yogaUstrasana from "./images/activities/yoga/yoga-ustrasana.png";
+import yogaVirbhadrasana from "./images/activities/yoga/yoga-virbhadrasana.png";
+import yogaVrksasna from "./images/activities/yoga/yoga-vrksasna.png";
+// Activities >> Sadhna
+import sadhnaHeader from "./images/activities/sadhna/sadhna-header.png";
+import sadhnaBhakti from "./images/activities/sadhna/bhakti-sadhna.png";
+import sadhnaJapa from "./images/activities/sadhna/japa-sadhna.png";
+import sadhnaKundalini from "./images/activities/sadhna/kundalini-sadhna.png";
+import sadhnaMantra from "./images/activities/sadhna/mantra-sadhna.png";
+import sadhnaMeditation from "./images/activities/sadhna/meditation-sadhna.png";
+import sadhnaNature from "./images/activities/sadhna/nature-sadhna.png";
+import sadhnaSeva from "./images/activities/sadhna/seva-sadhna.png";
+import sadhnaTantric from "./images/activities/sadhna/tantric-sadhna.png";
+import sadhnaYoga from "./images/activities/sadhna/yoga-sadhna.png";
+// Activities >> Brain Exercise
+import brainExerciseHeader from "./images/activities/brainExercise/brain-exercise-header.png";
+import brainGameGalaxy from "./images/activities/brainExercise/brain-game-galaxy.png";
+import brainGameTreasure from "./images/activities/brainExercise/brain-game-treasure-chest.png";
+import brainGameHunter from "./images/activities/brainExercise/brain-game-turtle-hunter.png";
 
 export {
   brainExercise,
@@ -35,6 +63,7 @@ export {
   activitiesHeader,
   activitiesExplore1,
   activitiesExplore2,
+  activityBlogThumbnail,
   meditationHeader,
   meditationIcon1,
   meditationIcon2,
@@ -46,6 +75,30 @@ export {
   meditationType5,
   meditationType6,
   meditationThumbnail,
+  sadhnaHeader,
+  sadhnaBhakti,
+  sadhnaJapa,
+  sadhnaKundalini,
+  sadhnaMantra,
+  sadhnaMeditation,
+  sadhnaNature,
+  sadhnaSeva,
+  sadhnaTantric,
+  sadhnaYoga,
+  yogaHeader,
+  yogaAdhoMukhaSavanasana,
+  yogaMatsyasana,
+  yogaSarvangasana,
+  yogaBandhasana,
+  yogaSirsasana,
+  yogaTrikonasana,
+  yogaUstrasana,
+  yogaVirbhadrasana,
+  yogaVrksasna,
+  brainExerciseHeader,
+  brainGameGalaxy,
+  brainGameTreasure,
+  brainGameHunter,
 };
 
 // Experts Images
@@ -220,7 +273,6 @@ import signup from "./images/signup.png";
 export { doctorLogin, doctorSignup, login, logo, rightBar, signup };
 
 // Blogs Images
-
 import blogHeader1 from "./images/blogs/blogs-header-1.png";
 import blogHeader2 from "./images/blogs/blogs-header-2.png";
 import blogRecent from "./images/blogs/blogs-recent.png";
@@ -230,7 +282,6 @@ import blogThumbnail3 from "./images/blogs/blogs-thumbnail-3.png";
 import blogThumbnail4 from "./images/blogs/blogs-thumbnail-4.png";
 import blogThumbnail5 from "./images/blogs/blogs-thumbnail-5.png";
 import blogThumbnail6 from "./images/blogs/blogs-thumbnail-6.png";
-import Meditation from "../pages/Meditation";
 
 export {
   blogHeader1,

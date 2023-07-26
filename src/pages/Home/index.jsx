@@ -1,4 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCaretRight,
+  faCaretLeft,
+  faPlus,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   headerMobile,
   headerDesktop,
@@ -432,10 +438,16 @@ function Home() {
             {/* Arrow Buttons  */}
             <div className="absolute translate-x-1/2 right-1/2 lg:right-0 lg:translate-x-0 bottom-0">
               <button className="w-12 h-12 border-2 border-primary-300 rounded-full mr-6">
-                <i className="fa-solid fa-caret-right text-primary-300 text-4xl" />
+                <FontAwesomeIcon
+                  icon={faCaretRight}
+                  className="text-primary-300 text-4xl"
+                />
               </button>
               <button className="bg-primary-300 w-12 h-12 rounded-full">
-                <i className="fa-solid fa-caret-left text-white text-4xl" />
+                <FontAwesomeIcon
+                  icon={faCaretLeft}
+                  className="text-white text-4xl"
+                />
               </button>
             </div>
           </div>
@@ -585,7 +597,7 @@ function Home() {
           <details className="bg-200/30 p-4 lg:p-6 rounded-lg cursor-pointer bg-[#52D0C2]">
             <summary className="flex justify-between items-center">
               <h3 className="text-lg font-bold flex justify-between items-center w-full">
-                <span>This is question</span> <i className="fa-solid fa-plus" />
+                <span>This is question</span> <FontAwesomeIcon icon={faPlus} />
               </h3>
             </summary>
             <p>
@@ -599,7 +611,7 @@ function Home() {
           <details className="bg-200/30 p-4 lg:p-6 rounded-lg cursor-pointer bg-[#52D0C2]">
             <summary className="flex justify-between items-center">
               <h3 className="text-lg font-bold flex justify-between items-center w-full">
-                <span>This is question</span> <i className="fa-solid fa-plus" />
+                <span>This is question</span> <FontAwesomeIcon icon={faPlus} />
               </h3>
             </summary>
             <p>
@@ -613,7 +625,7 @@ function Home() {
           <details className="bg-200/30 p-4 lg:p-6 rounded-lg cursor-pointer bg-[#52D0C2]">
             <summary className="flex justify-between items-center">
               <h3 className="text-lg font-bold flex justify-between items-center w-full">
-                <span>This is question</span> <i className="fa-solid fa-plus" />
+                <span>This is question</span> <FontAwesomeIcon icon={faPlus} />
               </h3>
             </summary>
             <p>
@@ -627,7 +639,7 @@ function Home() {
           <details className="bg-200/30 p-4 lg:p-6 rounded-lg cursor-pointer bg-[#52D0C2]">
             <summary className="flex justify-between items-center">
               <h3 className="text-lg font-bold flex justify-between items-center w-full">
-                <span>This is question</span> <i className="fa-solid fa-plus" />
+                <span>This is question</span> <FontAwesomeIcon icon={faPlus} />
               </h3>
             </summary>
             <p>

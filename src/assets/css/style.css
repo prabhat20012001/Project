@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, p, span, li, ul, button, a{
 
 /* Links and Paragraphs */
 .menu-link{ 
-  @apply  inline-block py-2 2xl:text-lg font-medium
+  @apply  inline-block py-2 font-semibold hover:text-primary-300 transition-all
 }
 .para{
   @apply text-sm leading-5  lg:text-lg font-quicksand !text-[#383838] font-semibold

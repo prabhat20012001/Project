@@ -1,10 +1,23 @@
-import React from "react";
+import { React, useState } from "react";
 import { Link } from "react-router-dom";
-import { logo } from "../../assets";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faBars } from "@fortawesome/free-solid-svg-icons";
+// Data
+import { logo } from "../../assets";
+import { activities } from "../../data";
 
 function Navbar() {
+  // Activities Submenu
+  const activitiesMenu = activities.map((value, index) => {
+    return (
+      <li key={index}>
+        <Link to={value.slug} className="menu-link inline-block py-2">
+          {value.name}
+        </Link>
+      </li>
+    );
+  });
+
   return (
     <>
       {/* ========== Navigation Bar ========== */}
@@ -121,27 +134,7 @@ function Navbar() {
             </Link>
             {/* Submenu */}
             <ul className="absolute hidden w-60 z-20 rounded-xl border-[1px] border-slate-100 bg-white px-6 py-4 shadow-md group-hover:block">
-              <li>
-                <Link to="/yoga" className="menu-link inline-block py-2">
-                  Yoga
-                </Link>
-              </li>
-              <li>
-                <Link to="/meditation" className="menu-link inline-block py-2">
-                  Meditation
-                </Link>
-              </li>
-              <li>
-                <Link to="/goal-plan" className="menu-link inline-block py-2">
-                  Goal Plan
-                </Link>
-              </li>
-              <li>
-                <Link to="/sadhna" className="menu-link inline-block py-2">
-                  {" "}
-                  Sadhna
-                </Link>
-              </li>
+              {activitiesMenu}
               <li>
                 <Link
                   to="/brain-exercise"
@@ -163,13 +156,13 @@ function Navbar() {
         <div className="hidden xl:flex xl:items-center">
           <Link
             to="/doctors-signup"
-            className="menu-link mr-4 text-primary-400 !font-bold"
+            className="menu-link mr-2 text-primary-400 !font-bold border-2 px-4 border-primary-400 hover:bg-primary-400 hover:text-white transition-all !py-1.5 rounded-full"
           >
             Join Us
           </Link>
           <Link
             to="/patient-signup"
-            className="btn-primary !w-fit !rounded-full !bg-primary-400 hover:!bg-primary-300 !py-2.5 font-medium"
+            className="btn-primary !w-fit !rounded-full !bg-primary-400 hover:!bg-primary-300 !py-2 font-medium"
           >
             Sign Up
           </Link>
@@ -177,7 +170,7 @@ function Navbar() {
 
         {/* Hamburger Icon */}
         <button className="xl:hidden">
-          <i className="fa-solid fa-bars text-3xl" />
+          <FontAwesomeIcon icon={faBars} className="text-3xl" />
         </button>
       </nav>
     </>

@@ -1,11 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 // Components
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import PatientSignup from "./pages/Authentication/PatientSignup";
 import DoctorSignup from "./pages/Authentication/DoctorSignup";
-
 // Pages
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
@@ -15,9 +13,31 @@ import Issues from "./pages/Issues";
 import Internship from "./pages/Internship";
 import Activities from "./pages/Activities";
 import Blogs from "./pages/Blogs";
-import Meditation from "./pages/Meditation";
+import ActivityLayout from "./pages/Activities/ActivityLayout";
+import BrainExercise from "./pages/Activities/BrainExercise";
+// Data
+import { activities } from "./data";
 
 function App() {
+  // Activity Subpages Routing
+  const activitiesMenu = activities.map((value, index) => {
+    return (
+      <Route
+        key={index}
+        path={value.slug}
+        element={
+          <Layout>
+            <ActivityLayout
+              header={value.header}
+              activities={value.activities}
+              blogs={value.blogs}
+            />
+          </Layout>
+        }
+      />
+    );
+  });
+
   return (
     <Router>
       <Routes>
@@ -77,11 +97,12 @@ function App() {
             </Layout>
           }
         />
+        {activitiesMenu}
         <Route
-          path="/meditation"
+          path="/brain-exercise"
           element={
             <Layout>
-              <Meditation />
+              <BrainExercise />
             </Layout>
           }
         />
