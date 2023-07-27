@@ -45,6 +45,9 @@ import {
   brainGameHunter,
 } from "../assets";
 
+
+
+
 export const issues = [
   {
     name: "Anxiety",
@@ -510,3 +513,68 @@ export const brainExercise = {
     },
   ],
 };
+
+import {
+   
+  blogThumbnail1,
+  blogThumbnail2,
+  blogThumbnail3,
+  blogThumbnail4,
+  blogThumbnail5,
+  blogThumbnail6,
+} from "../assets";
+
+const blogsData = [
+
+  {
+      heading: "Maintain a good habit with yourself",
+      subheading:"Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+      image: blogThumbnail1,
+    },
+    {
+      heading: "Maintain a good habit with yourself",
+      subheading:"Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+      image: blogThumbnail2,
+    },
+    {
+      heading: "Maintain a good habit with yourself",
+      subheading:"Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+      image: blogThumbnail3,
+    },
+    {
+      heading: "Maintain a good habit with yourself",
+      subheading:"Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+      image: blogThumbnail4,
+    },
+    {
+      heading: "Maintain a good habit with yourself",
+      subheading:"Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+      image: blogThumbnail5,
+    },
+    {
+      heading: "Maintain a good habit with yourself",
+      subheading:"Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+      image: blogThumbnail6,
+    },
+    {
+      heading: "Maintain a good habit with yourself",
+      subheading:"Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+      image: blogThumbnail5,
+    },
+    {
+      heading: "Maintain a good habit with yourself",
+      subheading:"Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+      image: blogThumbnail6,
+    },
+    {
+      heading: "Maintain a good habit with yourself",
+      subheading:"Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+      image: blogThumbnail3,
+    },
+
+
+
+
+
+];
+export {blogsData}

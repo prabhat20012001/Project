@@ -15,6 +15,7 @@ import Activities from "./pages/Activities";
 import Blogs from "./pages/Blogs";
 import ActivityLayout from "./pages/Activities/ActivityLayout";
 import BrainExercise from "./pages/Activities/BrainExercise";
+import Avatar from "./components/layout/Avatar";
 // Data
 import { activities } from "./data";
 
@@ -57,6 +58,15 @@ function App() {
             </Layout>
           }
         />
+        <Route
+          path="/avatar"
+          element={
+            <Layout>
+              <Avatar />
+            </Layout>
+          }
+        />
+
         <Route
           path="/services"
           element={

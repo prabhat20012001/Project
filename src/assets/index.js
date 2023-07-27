@@ -4,6 +4,16 @@ import headerDesktop from "./images/header/landing.png";
 
 export { headerDesktop, headerMobile };
 
+
+// Avatar images
+import avatarImage1 from './images/activities/avatar/image 13.png'
+import avatarImage2 from './images/activities/avatar/image 14.png'
+import avatarImage3 from './images/activities/avatar/image 15.png'
+import avatarImage4 from './images/activities/avatar/image 16.png'
+import avatarImage5 from './images/activities/avatar/image 17.png'
+import avatarImage6 from'./images/activities/avatar/image 18.png'
+export {avatarImage1,avatarImage2,avatarImage3,avatarImage4,avatarImage5,avatarImage6}
+
 // Activities Images
 import brainExercise from "./images/activities/activities-brainExercise.png";
 import goalPlan from "./images/activities/activities-goalPlan.png";
