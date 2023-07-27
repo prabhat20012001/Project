@@ -29,14 +29,22 @@ export default function BrainExercise() {
           {brainExercise.activities.types.map((value, index) => {
             return (
               <figure key={index} className="flex gap-8">
-                <div className="w-3/5">
+                <div
+                  className={
+                    brainExercise.activities.types[index].class[0] + " w-3/5"
+                  }
+                >
                   <img
                     src={value.thumbnail}
                     alt={value.title}
                     className="w-full object-cover block"
                   />
                 </div>
-                <figcaption className="w-2/5">
+                <figcaption
+                  className={
+                    brainExercise.activities.types[index].class[1] + " w-2/5"
+                  }
+                >
                   <h4 className="font-bold text-xl lg:text-2xl 2xl:text-4xl text-primary-400 py-2">
                     {value.title}
                   </h4>

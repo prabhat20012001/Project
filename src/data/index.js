@@ -133,7 +133,7 @@ export const activities = [
   {
     id: 1,
     name: "Yoga",
-    slug: "/yoga",
+    slug: "/activities/yoga",
     header: {
       title: [
         {
@@ -242,7 +242,7 @@ export const activities = [
   {
     id: 2,
     name: "Meditation",
-    slug: "/meditation",
+    slug: "/activities/meditation",
     header: {
       title: [
         {
@@ -333,7 +333,7 @@ export const activities = [
   {
     id: 3,
     name: "Sadhna",
-    slug: "/sadhna",
+    slug: "/activities/sadhna",
     header: {
       title: ":",
       title: [
@@ -441,7 +441,7 @@ export const activities = [
 export const brainExercise = {
   id: 1,
   name: "Brain Exercise",
-  slug: "/brain-exercise",
+  slug: "/activities/brain-exercise",
   header: {
     title: [
       {

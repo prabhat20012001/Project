@@ -274,11 +274,11 @@ function Home() {
                 <h2 className="subheading heading-primary">
                   Wleness Community
                 </h2>
-                <p className="para ml-1">
+                <p className="para ml-1 text-lg">
                   Wleness is beginning of happiness of your life.
                 </p>
               </hgroup>
-              <p className="text-lg mb-6 lg:pr-28 ml-1">
+              <p className="text-lg mb-6 lg:pr-28 ml-1 font-medium">
                 "<span className="text-primary-300 font-bold">Embrace</span>,
                 <span className="text-primary-300 font-bold">Empower</span>,
                 <span className="text-primary-300 font-bold">Elevate</span>:
