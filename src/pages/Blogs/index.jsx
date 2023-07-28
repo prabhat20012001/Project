@@ -103,7 +103,7 @@ export default function Blogs() {
         {/* =========Maintain A good habit ======= */}
         <div className="2xl:flex border-4 rounded-xl shadow-primary-100 items-center  sm:grid xs:grid">
           <div>
-            <img src={blogRecent} className="w-3/5 w-full object-cover"></img>
+            <img src={blogRecent} className="w-full object-cover"></img>
           </div>
           <div className="w-2/5 pl-12 sm:w-full pt-3 xs:w-full ">
             <h2 className="font-bold pb-6 text-5xl">

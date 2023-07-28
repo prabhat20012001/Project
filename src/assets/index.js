@@ -47,6 +47,18 @@ import yogaTrikonasana from "./images/activities/yoga/yoga-trikonasana.png";
 import yogaUstrasana from "./images/activities/yoga/yoga-ustrasana.png";
 import yogaVirbhadrasana from "./images/activities/yoga/yoga-virbhadrasana.png";
 import yogaVrksasna from "./images/activities/yoga/yoga-vrksasna.png";
+// Activities >> Yoga >> adhomukha
+import adhvmukha from "./images/activities/yoga/adhomukha/adhv-mukha-header.png"
+import benefits from "./images/activities/yoga/adhomukha/benefits.png"
+import precautions from "./images/activities/yoga/adhomukha/precautions.png"
+import stepsof from "./images/activities/yoga/adhomukha/steps-of-adhv-mukha-yoga.png"
+import variation1 from "./images/activities/yoga/adhomukha/variation-1.png"
+import variation2 from "./images/activities/yoga/adhomukha/variation-2.png"
+import variation3 from "./images/activities/yoga/adhomukha/variation-3.png"
+
+export{adhvmukha,benefits,precautions,stepsof,variation1,variation2,variation3}
+
+
 // Activities >> Sadhna
 import sadhnaHeader from "./images/activities/sadhna/sadhna-header.png";
 import sadhnaBhakti from "./images/activities/sadhna/bhakti-sadhna.png";
@@ -63,6 +75,8 @@ import brainExerciseHeader from "./images/activities/brainExercise/brain-exercis
 import brainGameGalaxy from "./images/activities/brainExercise/brain-game-galaxy.png";
 import brainGameTreasure from "./images/activities/brainExercise/brain-game-treasure-chest.png";
 import brainGameHunter from "./images/activities/brainExercise/brain-game-turtle-hunter.png";
+
+
 
 export {
   brainExercise,

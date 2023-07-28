@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function ActivityTechniques(props) {
   const activityTypes = props.types.map((value, index) => {
@@ -17,9 +18,12 @@ export default function ActivityTechniques(props) {
           </h4>
           <p className="pb-2 text-justify">{value.desc}</p>
           <div className="text-right">
-            <button className="font-bold text-lg text-primary-400">
+            <Link
+              className="font-bold text-lg text-primary-400"
+              to={value.slug}
+            >
               Read More
-            </button>
+            </Link>
           </div>
         </figcaption>
       </figure>

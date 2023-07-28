@@ -172,7 +172,7 @@ export const activities = [
           title: "Adho Mukha Svanasana",
           thumbnail: yogaAdhoMukhaSavanasana,
           desc: "Adho Mukha Svanasana is a foundational yoga pose that profoundly benefits the body and mind. It is a beautiful combination of strength, flexibility, and relaxation.",
-          slug: "/",
+          slug: "/activities/yoga/adho-mukha-svanasana",
         },
         {
           title: "Virabhadrasana II",
