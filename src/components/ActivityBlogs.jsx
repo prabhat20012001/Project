@@ -25,7 +25,10 @@ export default function ActivityBlogs(props) {
   });
 
   return (
-    <section className="container mx-auto">
+    <section
+      className="container mx-auto border-10 border-solid border-transparent p-15 relative"
+      style={{ borderImage: "url('border.png') 30 stretch" }}
+    >
       <div className="bg-primary-10 px-6 py-12 mb-10 rounded-2xl">
         <h3 className="lg:text-xl xl:text-3xl font-bold text-center mb-10">
           You cannot always control what goes on outside, but you can always

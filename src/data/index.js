@@ -175,7 +175,7 @@ export const activities = [
           title: "Adho Mukha Svanasana",
           thumbnail: yogaAdhoMukhaSavanasana,
           desc: "Adho Mukha Svanasana is a foundational yoga pose that profoundly benefits the body and mind. It is a beautiful combination of strength, flexibility, and relaxation.",
-          slug: "/",
+          slug: "/activities/yoga/adho-mukha-svanasana",
         },
         {
           title: "Virabhadrasana II",
@@ -531,3 +531,70 @@ export const activityFeatures = [
     image: feature3,
   },
 ];
+
+import {
+  blogThumbnail1,
+  blogThumbnail2,
+  blogThumbnail3,
+  blogThumbnail4,
+  blogThumbnail5,
+  blogThumbnail6,
+} from "../assets";
+
+const blogsData = [
+  {
+    heading: "Maintain a good habit with yourself",
+    subheading:
+      "Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+    image: blogThumbnail1,
+  },
+  {
+    heading: "Maintain a good habit with yourself",
+    subheading:
+      "Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+    image: blogThumbnail2,
+  },
+  {
+    heading: "Maintain a good habit with yourself",
+    subheading:
+      "Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+    image: blogThumbnail3,
+  },
+  {
+    heading: "Maintain a good habit with yourself",
+    subheading:
+      "Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+    image: blogThumbnail4,
+  },
+  {
+    heading: "Maintain a good habit with yourself",
+    subheading:
+      "Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+    image: blogThumbnail5,
+  },
+  {
+    heading: "Maintain a good habit with yourself",
+    subheading:
+      "Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+    image: blogThumbnail6,
+  },
+  {
+    heading: "Maintain a good habit with yourself",
+    subheading:
+      "Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+    image: blogThumbnail5,
+  },
+  {
+    heading: "Maintain a good habit with yourself",
+    subheading:
+      "Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+    image: blogThumbnail6,
+  },
+  {
+    heading: "Maintain a good habit with yourself",
+    subheading:
+      "Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget magna est.Neque turpis faucibus eget magna est.",
+    image: blogThumbnail3,
+  },
+];
+export { blogsData };

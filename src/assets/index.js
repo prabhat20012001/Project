@@ -4,6 +4,16 @@ import headerDesktop from "./images/header/landing.png";
 
 export { headerDesktop, headerMobile };
 
+
+// Avatar images
+import avatarImage1 from './images/activities/avatar/image 13.png'
+import avatarImage2 from './images/activities/avatar/image 14.png'
+import avatarImage3 from './images/activities/avatar/image 15.png'
+import avatarImage4 from './images/activities/avatar/image 16.png'
+import avatarImage5 from './images/activities/avatar/image 17.png'
+import avatarImage6 from'./images/activities/avatar/image 18.png'
+export {avatarImage1,avatarImage2,avatarImage3,avatarImage4,avatarImage5,avatarImage6}
+
 // Activities Images
 import brainExercise from "./images/activities/activities-brainExercise.png";
 import goalPlan from "./images/activities/activities-goalPlan.png";
@@ -34,6 +44,18 @@ import yogaTrikonasana from "./images/activities/yoga/yoga-trikonasana.png";
 import yogaUstrasana from "./images/activities/yoga/yoga-ustrasana.png";
 import yogaVirbhadrasana from "./images/activities/yoga/yoga-virbhadrasana.png";
 import yogaVrksasna from "./images/activities/yoga/yoga-vrksasna.png";
+// Activities >> Yoga >> adhomukha
+import adhvmukha from "./images/activities/yoga/adhomukha/adhv-mukha-header.png"
+import benefits from "./images/activities/yoga/adhomukha/benefits.png"
+import precautions from "./images/activities/yoga/adhomukha/precautions.png"
+import stepsof from "./images/activities/yoga/adhomukha/steps-of-adhv-mukha-yoga.png"
+import variation1 from "./images/activities/yoga/adhomukha/variation-1.png"
+import variation2 from "./images/activities/yoga/adhomukha/variation-2.png"
+import variation3 from "./images/activities/yoga/adhomukha/variation-3.png"
+
+export{adhvmukha,benefits,precautions,stepsof,variation1,variation2,variation3}
+
+
 // Activities >> Sadhna
 import sadhnaHeader from "./images/activities/sadhna/sadhna-header.png";
 import sadhnaBhakti from "./images/activities/sadhna/bhakti-sadhna.png";
@@ -50,6 +72,8 @@ import brainExerciseHeader from "./images/activities/brainExercise/brain-exercis
 import brainGameGalaxy from "./images/activities/brainExercise/brain-game-galaxy.png";
 import brainGameTreasure from "./images/activities/brainExercise/brain-game-treasure-chest.png";
 import brainGameHunter from "./images/activities/brainExercise/brain-game-turtle-hunter.png";
+
+
 
 export {
   brainExercise,

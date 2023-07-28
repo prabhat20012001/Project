@@ -21,6 +21,7 @@ export default function ActivityLayout(props) {
         title={props.activities.title}
         desc={props.activities.desc}
         types={props.activities.types}
+        slug={props.activities.types.slug}
       />
       <ActivityVideos />
       <ActivityBlogs blogs={props.blogs} />

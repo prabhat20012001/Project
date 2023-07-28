@@ -4,6 +4,11 @@ import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import PatientSignup from "./pages/Authentication/PatientSignup";
 import DoctorSignup from "./pages/Authentication/DoctorSignup";
+// import {
+//   AdhoMukhaSvanasana,
+//   MainComponent,
+// } from "./pages/Activities/ActivitySubPageLayout";
+// import yogaAdhoMukhaSavanasana from "./pages/Activities/ActivitySubPageLayout";
 // Pages
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
@@ -17,6 +22,8 @@ import ActivityLayout from "./pages/Activities/ActivityLayout";
 import BrainExercise from "./pages/Activities/BrainExercise";
 import CouplesTherapy from "./pages/Services/CouplesTherapy";
 import MusicalTherapy from "./pages/Services/MusicalTherapy";
+import Avatar from "./components/layout/Avatar";
+import AdhoMukhaSvanasana from "./pages/Activities/ActivitySubPageLayout";
 // Data
 import { activities } from "./data";
 
@@ -59,6 +66,15 @@ function App() {
             </Layout>
           }
         />
+        <Route
+          path="/avatar"
+          element={
+            <Layout>
+              <Avatar />
+            </Layout>
+          }
+        />
+
         <Route
           path="/services"
           element={
@@ -112,6 +128,14 @@ function App() {
           element={
             <Layout>
               <Activities />
+            </Layout>
+          }
+        />
+        <Route
+          path="/activities/yoga/adho-mukha-svanasana"
+          element={
+            <Layout>
+              <AdhoMukhaSvanasana />
             </Layout>
           }
         />
