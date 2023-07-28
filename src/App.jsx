@@ -15,6 +15,8 @@ import Activities from "./pages/Activities";
 import Blogs from "./pages/Blogs";
 import ActivityLayout from "./pages/Activities/ActivityLayout";
 import BrainExercise from "./pages/Activities/BrainExercise";
+import CouplesTherapy from "./pages/Services/CouplesTherapy";
+import MusicalTherapy from "./pages/Services/MusicalTherapy";
 // Data
 import { activities } from "./data";
 
@@ -62,6 +64,22 @@ function App() {
           element={
             <Layout>
               <Services />
+            </Layout>
+          }
+        />
+        <Route
+          path="/services/couples-therapy"
+          element={
+            <Layout>
+              <CouplesTherapy />
+            </Layout>
+          }
+        />
+        <Route
+          path="/services/musical-therapy"
+          element={
+            <Layout>
+              <MusicalTherapy />
             </Layout>
           }
         />

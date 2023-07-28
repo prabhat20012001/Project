@@ -1,9 +1,11 @@
 import React from "react";
+// Data
+import { brainExercise, activityFeatures } from "../../data";
+// Components
 import ActivityHeader from "../../components/ActivityHeader";
-import ActivityTechniques from "../../components/ActivityTechniques";
 import ActivityVideos from "../../components/ActivityVideos";
 import ActivityBlogs from "../../components/ActivityBlogs";
-import { brainExercise } from "../../data";
+import FeaturesBlock from "../../components/FeaturesBlock";
 
 export default function BrainExercise() {
   return (
@@ -14,6 +16,7 @@ export default function BrainExercise() {
         image={brainExercise.header.image}
         desc={brainExercise.header.desc}
       />
+      <FeaturesBlock data={activityFeatures} />
       <section className="container mx-auto pb-6">
         <div className="lg:my-14 text-center">
           <h2 className="subheading text-primary-400">

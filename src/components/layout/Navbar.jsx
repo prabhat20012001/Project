@@ -42,7 +42,7 @@ function Navbar() {
             </Link>
 
             {/* Submenu */}
-            <ul className="absolute hidden w-60 rounded-xl border-[1px] border-slate-100 bg-white px-6 py-4 shadow-md group-hover:block">
+            <ul className="absolute hidden w-60 z-10 rounded-xl border-[1px] border-slate-100 bg-white px-6 py-4 shadow-md group-hover:block">
               <li>
                 <Link
                   to="/services/therapy"
@@ -57,6 +57,14 @@ function Navbar() {
                   className="menu-link inline-block py-2"
                 >
                   Psychiatry
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/services/musical-therapy"
+                  className="menu-link inline-block py-2"
+                >
+                  Musical Therapy
                 </Link>
               </li>
               <li>

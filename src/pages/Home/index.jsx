@@ -342,7 +342,7 @@ function Home() {
               />
             </div>
           </div>
-          <article className="order-1 mx-auto sm:w-[580px] lg:order-2 2xl:w-[55%] pb-10">
+          <article className="order-1 mx-auto sm:w-[580px] lg:order-2 2xl:w-[55%] pb-10 2xl:pb-0">
             <div className="space-y-3 lg:ml-12">
               <figure className="flex rounded-xl rounded-br-[5rem] border-2 border-slate-200 bg-white p-4 lg:p-5 shadow-md xs:flex-row lg:items-center lg:py-3 xl:py-6">
                 <div className="mr-4 xs:w-1/5 w-1/5 xl:w-1/5">

@@ -43,8 +43,12 @@ import {
   brainGameGalaxy,
   brainGameTreasure,
   brainGameHunter,
+  feature1,
+  feature2,
+  feature3,
 } from "../assets";
 
+// Issues data for landing page
 export const issues = [
   {
     name: "Anxiety",
@@ -96,6 +100,7 @@ export const issues = [
   },
 ];
 
+// Meditation Types for meditation page
 export const meditationTypes = [
   {
     image: meditationType1,
@@ -129,6 +134,7 @@ export const meditationTypes = [
   },
 ];
 
+// All activities data for activities subpages
 export const activities = [
   {
     id: 1,
@@ -437,7 +443,6 @@ export const activities = [
     ],
   },
 ];
-
 export const brainExercise = {
   id: 1,
   name: "Brain Exercise",
@@ -510,3 +515,19 @@ export const brainExercise = {
     },
   ],
 };
+
+// Activity Features Blocks
+export const activityFeatures = [
+  {
+    name: "Available Exercises",
+    image: feature1,
+  },
+  {
+    name: "Flexible Schedule",
+    image: feature2,
+  },
+  {
+    name: "Proper Demonstration",
+    image: feature3,
+  },
+];

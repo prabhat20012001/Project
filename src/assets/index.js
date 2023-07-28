@@ -16,9 +16,6 @@ import activitiesExplore1 from "./images/activities/activities-explore-1.png";
 import activitiesExplore2 from "./images/activities/activities-explore-2.png";
 // Activities >> Meditation
 import meditationHeader from "./images/activities/meditation/meditationHeader.png";
-import meditationIcon1 from "./images/activities/meditation/meditation-icon-1.png";
-import meditationIcon2 from "./images/activities/meditation/meditation-icon-2.png";
-import meditationIcon3 from "./images/activities/meditation/meditation-icon-3.png";
 import meditationType1 from "./images/activities/meditation/meditation-type-1.png";
 import meditationType2 from "./images/activities/meditation/meditation-type-2.png";
 import meditationType3 from "./images/activities/meditation/meditation-type-3.png";
@@ -65,9 +62,6 @@ export {
   activitiesExplore2,
   activityBlogThumbnail,
   meditationHeader,
-  meditationIcon1,
-  meditationIcon2,
-  meditationIcon3,
   meditationType1,
   meditationType2,
   meditationType3,
@@ -101,6 +95,27 @@ export {
   brainGameHunter,
 };
 
+// Feature Icons
+import feature1 from "./images/features/feature-1.png";
+import feature2 from "./images/features/feature-2.png";
+import feature3 from "./images/features/feature-3.png";
+import feature4 from "./images/features/feature-4.png";
+import feature5 from "./images/features/feature-5.png";
+import feature6 from "./images/features/feature-6.png";
+import feature7 from "./images/features/feature-7.png";
+import feature8 from "./images/features/feature-8.png";
+
+export {
+  feature1,
+  feature2,
+  feature3,
+  feature4,
+  feature5,
+  feature6,
+  feature7,
+  feature8,
+};
+
 // Experts Images
 import doctor1 from "./images/experts/doctors/doctor-1.png";
 import faceIcon from "./images/experts/header-icon.png";
@@ -112,7 +127,6 @@ import featureIcon3 from "./images/experts/icon-3.png";
 import expertsWhy1 from "./images/experts/why-1.png";
 import expertsWhy2 from "./images/experts/why-2.png";
 import expertsWhy3 from "./images/experts/why-3.png";
-import patient1 from "./images/experts/patient-1.png";
 import specialist1 from "./images/experts/specialist-1.png";
 import expertClient from "./images/experts/expert-client.png";
 import featuredPatient from "./images/experts/featuredPatient.png";
@@ -128,7 +142,6 @@ export {
   expertsWhy1,
   expertsWhy2,
   expertsWhy3,
-  patient1,
   specialist1,
   expertClient,
   featuredPatient,
@@ -211,6 +224,30 @@ export {
   homeStress,
 };
 
+// Services Images
+// Services >> Couples Therapy
+import couplesTherapyHeader from "./images/services/couplesTherapy/couples-therapy-header.png";
+import couplesTherapy1 from "./images/services/couplesTherapy/couples-therapy-1.png";
+import couplesTherapy2 from "./images/services/couplesTherapy/couples-therapy-2.png";
+export { couplesTherapyHeader, couplesTherapy1, couplesTherapy2 };
+// Services >> Musical Therapy
+import musicalTherapyHeader from "./images/services/musicalTherapy/musical-therapy-header.png";
+import musicalTherapy1 from "./images/services/musicalTherapy/musical-therapy-1.png";
+import musicalTherapy2 from "./images/services/musicalTherapy/musical-therapy-2.png";
+import musicalTherapy3 from "./images/services/musicalTherapy/musical-therapy-3.png";
+import musicalTherapy4 from "./images/services/musicalTherapy/musical-therapy-4.png";
+import musicalTherapy5 from "./images/services/musicalTherapy/musical-therapy-5.png";
+import musicalTherapy6 from "./images/services/musicalTherapy/musical-therapy-6.png";
+export {
+  musicalTherapyHeader,
+  musicalTherapy1,
+  musicalTherapy2,
+  musicalTherapy3,
+  musicalTherapy4,
+  musicalTherapy5,
+  musicalTherapy6,
+};
+
 // Issues Images
 import issuesHeader from "./images/issues/issuesHeader.png";
 import issueAnxiety from "./images/issues/issue-anxiety.png";
@@ -271,6 +308,19 @@ import rightBar from "./images/right-bar.jpg";
 import signup from "./images/signup.png";
 
 export { doctorLogin, doctorSignup, login, logo, rightBar, signup };
+
+// Clients and Testimonials Image
+import happyClient1 from "./images/clients/happy-client-1.png";
+import happyClient2 from "./images/clients/happy-client-2.png";
+import happyClient3 from "./images/clients/happy-client-3.png";
+
+export { happyClient1, happyClient2, happyClient3 };
+
+// FAQ's Section
+import faq1 from "./images/faqs/faq-1.png";
+import faq2 from "./images/faqs/faq-2.png";
+
+export { faq1, faq2 };
 
 // Blogs Images
 import blogHeader1 from "./images/blogs/blogs-header-1.png";
