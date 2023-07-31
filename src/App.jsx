@@ -4,11 +4,6 @@ import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import PatientSignup from "./pages/Authentication/PatientSignup";
 import DoctorSignup from "./pages/Authentication/DoctorSignup";
-// import {
-//   AdhoMukhaSvanasana,
-//   MainComponent,
-// } from "./pages/Activities/ActivitySubPageLayout";
-// import yogaAdhoMukhaSavanasana from "./pages/Activities/ActivitySubPageLayout";
 // Pages
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
@@ -23,12 +18,12 @@ import BrainExercise from "./pages/Activities/BrainExercise";
 import CouplesTherapy from "./pages/Services/CouplesTherapy";
 import MusicalTherapy from "./pages/Services/MusicalTherapy";
 import Avatar from "./components/layout/Avatar";
-import AdhoMukhaSvanasana from "./pages/Activities/ActivitySubPageLayout";
+import ActivitySubPageLayout from "./pages/Activities/ActivitySubPageLayout";
 // Data
 import { activities } from "./data";
 
 function App() {
-  // Activity Subpages Routing
+  // Activity Subpages Routing - Yoga, Meditation, Sadhna
   const activitiesMenu = activities.map((value, index) => {
     return (
       <Route
@@ -45,6 +40,24 @@ function App() {
         }
       />
     );
+  });
+  // Activity Subpages Routing - Yoga subpages
+  const activitiesInnerSubpages = activities.map((value, index) => {
+    const innerSubPages = value.activities.types.map((key, i) => {
+      return (
+        <Route
+          key={i}
+          path={key.slug}
+          element={
+            <Layout>
+              <ActivitySubPageLayout data={key.sections} />
+            </Layout>
+          }
+        />
+      );
+    });
+
+    return innerSubPages;
   });
 
   return (
@@ -131,15 +144,15 @@ function App() {
             </Layout>
           }
         />
-        <Route
-          path="/activities/yoga/adho-mukha-svanasana"
-          element={
-            <Layout>
-              <AdhoMukhaSvanasana />
-            </Layout>
-          }
-        />
+        {/* Activity Subpages - Yoga, Meditation, Sadhna */}
         {activitiesMenu}
+        {/* Inner pages of yoga, meditation and sadhna */}
+        {activitiesInnerSubpages}
+        {/* {activities.activities.types.map((value, index) => {
+          return (
+            <Route key={index} path={value.slug} element={<Layout></Layout>} />
+          );
+        })} */}
         <Route
           path="/brain-exercise"
           element={

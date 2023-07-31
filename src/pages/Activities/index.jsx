@@ -8,6 +8,7 @@ import {
   activitiesHeader,
   activitiesExplore1,
   activitiesExplore2,
+  activitiesExplore3,
 } from "../../assets";
 
 function Activities() {
@@ -114,6 +115,31 @@ function Activities() {
               Explore
             </a>
           </figcaption>
+        </figure>
+        <figure className="flex flex-col lg:flex-row items-center mb-12 lg:mb-2">
+          <figcaption className="order-2 lg:order-1 lg:w-[55%] lg:pr-10">
+            <h3 className="text-4xl font-bold heading-primary mb-3">
+              Power of self - care
+            </h3>
+            <p className="text-justify mb-5 lg:mb-10 font-medium">
+              In this fast-paced world, take time for inner balance. Step into a
+              world of self-discovery, where self-care becomes a delightful
+              journey. Indulge in moments of pampering yourself. Empower and
+              embrace the beauty of self-love, and watch your inner radiance
+              shine. Remember, you deserve it! Treat yourself to self-care
+              today.
+            </p>
+            <a href="#" className="btn-one">
+              Explore
+            </a>
+          </figcaption>
+          <div className="order-1 lg:order-2 lg:w-[45%] lg:ml-14 mb-5">
+            <img
+              src={activitiesExplore3}
+              alt="Therapy"
+              className="w-full object-cover"
+            />
+          </div>
         </figure>
       </section>
     </>

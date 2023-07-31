@@ -84,8 +84,8 @@ function Home() {
       {/* ========== Issues ========== */}
       <section>
         <div className="container mx-auto pb-6 sm:pt-6 lg:pb-14 2xl:py-10">
-          <h2 className="subheading heading-primary sm:pb-0 xl:pb-1">
-            Seeking Support?
+          <h2 className="subheading sm:pb-0 xl:pb-1">
+            <span className="heading-primary">Seeking Support?</span>
           </h2>
           <p className="para">
             Discover engaging mental health resources, including articles,
@@ -271,8 +271,8 @@ function Home() {
           <div className="flex flex-col justify-between lg:flex-row lg:items-center relative">
             <article className="mx-auto pb-4 lg:pb-10 lg:w-3/5">
               <hgroup className="mb-6 lg:mb-14">
-                <h2 className="subheading heading-primary">
-                  Wleness Community
+                <h2 className="subheading">
+                  <span className="heading-primary">Wleness Community</span>
                 </h2>
                 <p className="para ml-1 text-lg">
                   Wleness is beginning of happiness of your life.
@@ -404,8 +404,8 @@ function Home() {
       </section>
       {/* ========== Our Testimonial ========== */}
       <section>
-        <h2 className="subheading heading-primary text-center mb-8 block mx-auto !w-fit">
-          Our Testimonials
+        <h2 className="subheading mb-8 text-center">
+          <span className="heading-primary">Our Testimonials</span>
         </h2>
         <div className="bg-gradient-to-b from-primary-300/20 to-white py-7 lg:py-14">
           <div className="container mx-auto relative lg:!pr-0 pb-14 lg:pb-0">

@@ -4,15 +4,21 @@ import headerDesktop from "./images/header/landing.png";
 
 export { headerDesktop, headerMobile };
 
-
 // Avatar images
-import avatarImage1 from './images/activities/avatar/image 13.png'
-import avatarImage2 from './images/activities/avatar/image 14.png'
-import avatarImage3 from './images/activities/avatar/image 15.png'
-import avatarImage4 from './images/activities/avatar/image 16.png'
-import avatarImage5 from './images/activities/avatar/image 17.png'
-import avatarImage6 from'./images/activities/avatar/image 18.png'
-export {avatarImage1,avatarImage2,avatarImage3,avatarImage4,avatarImage5,avatarImage6}
+import avatarImage1 from "./images/activities/avatar/image 13.png";
+import avatarImage2 from "./images/activities/avatar/image 14.png";
+import avatarImage3 from "./images/activities/avatar/image 15.png";
+import avatarImage4 from "./images/activities/avatar/image 16.png";
+import avatarImage5 from "./images/activities/avatar/image 17.png";
+import avatarImage6 from "./images/activities/avatar/image 18.png";
+export {
+  avatarImage1,
+  avatarImage2,
+  avatarImage3,
+  avatarImage4,
+  avatarImage5,
+  avatarImage6,
+};
 
 // Activities Images
 import brainExercise from "./images/activities/activities-brainExercise.png";
@@ -24,6 +30,7 @@ import activitiesHeader from "./images/activities/header-banner.png";
 import activityBlogThumbnail from "./images/activities/activity-blog-thumbnail.png";
 import activitiesExplore1 from "./images/activities/activities-explore-1.png";
 import activitiesExplore2 from "./images/activities/activities-explore-2.png";
+import activitiesExplore3 from "./images/activities/activities-explore-3.png";
 // Activities >> Meditation
 import meditationHeader from "./images/activities/meditation/meditationHeader.png";
 import meditationType1 from "./images/activities/meditation/meditation-type-1.png";
@@ -45,17 +52,11 @@ import yogaUstrasana from "./images/activities/yoga/yoga-ustrasana.png";
 import yogaVirbhadrasana from "./images/activities/yoga/yoga-virbhadrasana.png";
 import yogaVrksasna from "./images/activities/yoga/yoga-vrksasna.png";
 // Activities >> Yoga >> adhomukha
-import adhvmukha from "./images/activities/yoga/adhomukha/adhv-mukha-header.png"
-import benefits from "./images/activities/yoga/adhomukha/benefits.png"
-import precautions from "./images/activities/yoga/adhomukha/precautions.png"
-import stepsof from "./images/activities/yoga/adhomukha/steps-of-adhv-mukha-yoga.png"
-import variation1 from "./images/activities/yoga/adhomukha/variation-1.png"
-import variation2 from "./images/activities/yoga/adhomukha/variation-2.png"
-import variation3 from "./images/activities/yoga/adhomukha/variation-3.png"
-
-export{adhvmukha,benefits,precautions,stepsof,variation1,variation2,variation3}
-
-
+import adhvmukhaHeader from "./images/activities/yoga/adhomukha/adhv-mukha-header.png";
+import adhvmukhaSteps from "./images/activities/yoga/adhomukha/steps-of-adhv-mukha-yoga.png";
+import adhvVariationOne from "./images/activities/yoga/adhomukha/variation-1.png";
+import adhvVariationTwo from "./images/activities/yoga/adhomukha/variation-2.png";
+import adhvVariationThree from "./images/activities/yoga/adhomukha/variation-3.png";
 // Activities >> Sadhna
 import sadhnaHeader from "./images/activities/sadhna/sadhna-header.png";
 import sadhnaBhakti from "./images/activities/sadhna/bhakti-sadhna.png";
@@ -73,9 +74,24 @@ import brainGameGalaxy from "./images/activities/brainExercise/brain-game-galaxy
 import brainGameTreasure from "./images/activities/brainExercise/brain-game-treasure-chest.png";
 import brainGameHunter from "./images/activities/brainExercise/brain-game-turtle-hunter.png";
 
+// Join us
+import Elipse1 from "./images/joinus/Ellipse 1150.png";
+import Elipse2 from "./images/joinus/Ellipse 1151.png";
+import Elipse3 from "./images/joinus/Ellipse 1152.png";
 
+export { Elipse1, Elipse2, Elipse3 };
 
+// Others
+import benefits from "./images/activities/yoga/others/benefits.png";
+import precautions from "./images/activities/yoga/others/precautions.png";
 export {
+  adhvmukhaHeader,
+  benefits,
+  precautions,
+  adhvmukhaSteps,
+  adhvVariationOne,
+  adhvVariationTwo,
+  adhvVariationThree,
   brainExercise,
   goalPlan,
   meditation,
@@ -84,6 +100,7 @@ export {
   activitiesHeader,
   activitiesExplore1,
   activitiesExplore2,
+  activitiesExplore3,
   activityBlogThumbnail,
   meditationHeader,
   meditationType1,

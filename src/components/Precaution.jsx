@@ -3,7 +3,7 @@ import { precautions } from "../assets";
 
 export default function Precaution() {
   return (
-    <div className="grid grid-cols-2 items-center ">
+    <div className="container mx-auto grid grid-cols-2 items-center">
       <div>
         <img src={precautions} alt="" />
       </div>

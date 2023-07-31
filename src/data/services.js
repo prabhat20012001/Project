@@ -14,7 +14,7 @@ import {
   musicalTherapy6,
 } from "../assets";
 
-// Services Features Blocks
+// Services Page Features Blocks
 export const servicesFeatures = [
   {
     name: "Express Love",
@@ -30,6 +30,7 @@ export const servicesFeatures = [
   },
 ];
 
+// Services Categories
 export const couplesTherapyData = {
   id: 1,
   name: "Couples Therapy",
@@ -127,7 +128,7 @@ export const MusicalTherapyData = {
     image: couplesTherapyHeader,
   },
   activities: {
-    title: "MUSICAL tHERAPY Techniques ",
+    title: "MUSICAL THERAPY TECHNIQUES",
     desc: "Use music to improve mental and emotional well-being through techniques like active listening, improvisation, and songwriting with our top counselors.",
     types: [
       {
