@@ -1,26 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFilter,
-  faHeart,
-  faSearch,
-  faStar,
-  faAnglesRight,
-} from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 
 import { blogsData } from "../../data";
 
-import {
-  blogHeader1,
-  blogHeader2,
-  blogRecent,
-  blogThumbnail1,
-  blogThumbnail2,
-  blogThumbnail3,
-  blogThumbnail4,
-  blogThumbnail5,
-  blogThumbnail6,
-} from "../../assets";
+import { blogHeader1, blogHeader2, blogRecent } from "../../assets";
 
 export default function Blogs() {
   return (
@@ -59,7 +43,7 @@ export default function Blogs() {
               <FontAwesomeIcon
                 icon={faSearch}
                 className="text-white  hover:text-slate-600"
-              />{" "}
+              />
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -74,7 +58,7 @@ export default function Blogs() {
         <div class="sm:hidden">
           <select
             id="tabs"
-            class="bg-primary-500 border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            class="bg-primary-500 border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
           >
             <option>Recent</option>
             <option>Popular</option>
@@ -84,7 +68,7 @@ export default function Blogs() {
           <li class="">
             <a
               href="#"
-              class="inline-block p-4 text-white bg-primary-500 rounded-l-lg focus:ring-4 focus:ring-blue-300 active focus:outline-none dark:bg-gray-700 dark:text-white"
+              class="inline-block p-4 text-white bg-primary-500 rounded-l-lg focus:ring-4 focus:ring-blue-300 active focus:outline-none "
               aria-current="page"
             >
               Recent
@@ -93,7 +77,7 @@ export default function Blogs() {
           <li class="">
             <a
               href="#"
-              class="inline-block  p-4 bg-slate-200 text-primary-500 hover:text-primary-500  font-bold rounded-r-lg hover:bg-gray-100 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700"
+              class="inline-block  p-4 bg-slate-200 text-primary-500 hover:text-primary-500  font-bold rounded-r-lg hover:bg-gray-100 focus:ring-4 focus:ring-blue-300 focus:outline-none"
             >
               Popular
             </a>
@@ -107,7 +91,7 @@ export default function Blogs() {
           </div>
           <div className="w-2/5 pl-12 sm:w-full pt-3 xs:w-full ">
             <h2 className="font-bold pb-6 text-5xl">
-              Maintain a good habit with yourself{" "}
+              Maintain a good habit with yourself
             </h2>
             <p className="text-lg">
               Lorem ipsum dolor sit amet consectetur. Neque turpis faucibus eget
