@@ -66,9 +66,10 @@ import RightImage from "../components/RightImage";
 import LeftImage from "../components/LeftImage";
 import LeftVideoList from "../components/LeftVideoList";
 import RightImageList from "../components/RightImageList";
+import LeftImageList from "../components/LeftImageList";
+import ActivityBlogs from "../components/ActivityBlogs";
 // import YogaLeftList from "../components/YogaLeftList";
 // import YogaRightList from "../components/YogaRightList";
-// import ActivityBlogs from "../components/ActivityBlogs";
 
 // Issues data for landing page
 export const issues = [
@@ -291,6 +292,23 @@ export const activities = [
                 ],
               },
             },
+            {
+              component: LeftImageList,
+              data: {
+                desc: "While Adho Mukha Svanasana is a safe and beneficial pose for most people, there are a few precautions to remember: ",
+                info: "Adho Mukha Svanasana is a versatile pose that yogis of all skill levels can practice. Whether you want to increase your flexibility, strengthen your upper body, or reduce stress, this pose has much to offer. You can safely practice this pose and enjoy its many benefits by following the proper technique and taking necessary precautions. So next time you step onto your yoga mat, include Adho Mukha Svanasana in your practice!",
+                list: [
+                  "Avoid this pose if you have a wrist, shoulder, or back injury.",
+                  "If you have high blood pressure, keep your head at or above heart level to avoid a sudden increase in blood pressure.",
+                  "If you have a neck injury, keep your head aligned with your spine instead of looking towards your belly button.",
+                  "If you have tight hamstrings, bend your knees slightly to avoid straining your lower back.",
+                ],
+              },
+            },
+            // {
+            //   component: ActivityBlogs,
+            //   data: blogsData,
+            // },
           ],
         },
         {

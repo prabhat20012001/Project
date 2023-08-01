@@ -2,12 +2,15 @@ import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown, faBars } from "@fortawesome/free-solid-svg-icons";
+import JoinUs from "../JoinUs";
 // Data
 import { logo } from "../../assets";
 import { activities } from "../../data";
 
 function Navbar() {
   // Activities Submenu
+  const [isJoinUsOpen, setJoinUsOpen] = useState(false);
+
   const activitiesMenu = activities.map((value, index) => {
     return (
       <li key={index}>
@@ -181,6 +184,7 @@ function Navbar() {
           <FontAwesomeIcon icon={faBars} className="text-3xl" />
         </button>
       </nav>
+      <JoinUs isOpen={isJoinUsOpen} onClose={() => setJoinUsOpen(false)} />
     </>
   );
 }
